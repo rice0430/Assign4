@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+}
+
+.block {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 991px) {
+  .container {
+    width: 991px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .blue {
+    width: 18%;
+    vertical-align: top;
+  }
+
+  .yellow, .red {
+    width: 72%;
+  }
+
+  .blue {
+    display: inline-block;
+  }
+  .blue .icon {
+    width: 100px;
+  }
+  .blue li {
+    display: inline-block;
+    font-size: 2rem;
+    color: #60beae;
+  }
+  .blue aside {
+    color: #575757;
+    font-size: 1rem;
+  }
+
+  .yellow {
+    display: inline-block;
+  }
+  .yellow .title-box {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .yellow .title-box .titleA {
+    padding: 10px;
+    background-color: white;
+  }
+  .yellow .title-box .titleB {
+    padding: 10px;
+    background-color: black;
+    color: white;
+  }
+  .yellow img {
+    width: 100%;
+  }
+  .yellow .pic {
+    height: 248px;
+  }
+
+  .red {
+    display: inline-block;
+  }
+  .red .arti-with-pic {
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    margin-bottom: 20px;
+  }
+  .red img {
+    max-width: 100%;
+  }
+  .red h3.title {
+    color: #60beae;
+  }
+  .red time {
+    color: #AAA;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    width: 768px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .blue, .yellow, .red {
+    width: 100%;
+  }
+
+  .blue .icon {
+    width: 100px;
+  }
+  .blue li {
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #60beae;
+  }
+  .blue aside {
+    display: none;
+  }
+
+  .yellow .title-box {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .yellow .title-box .titleA {
+    padding: 10px;
+    background-color: white;
+  }
+  .yellow .title-box .titleB {
+    padding: 10px;
+    background-color: black;
+    color: white;
+  }
+  .yellow img {
+    max-width: 100%;
+  }
+  .yellow .pic {
+    height: 445px;
+  }
+  .yellow .nd-nav {
+    background-color: #d9efec;
+  }
+  .yellow .nd-nav .option {
+    display: inline-block;
+    color: #60beae;
+  }
+  .yellow .nd-nav .option h3 {
+    font-size: 2.2rem;
+  }
+  .yellow .nd-nav .option p {
+    display: none;
+  }
+
+  .red .arti-with-pic {
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    margin: 5px;
+  }
+  .red img {
+    max-width: 100%;
+  }
+  .red h3.title {
+    color: #60beae;
+  }
+  .red time {
+    color: #AAA;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 480px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .blue, .yellow, .red {
+    width: 100%;
+  }
+
+  .blue .icon {
+    width: 60px;
+  }
+  .blue li {
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #60beae;
+  }
+  .blue aside {
+    display: none;
+  }
+
+  .yellow .title-box {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .yellow .title-box .titleA {
+    padding: 10px;
+    background-color: white;
+  }
+  .yellow .title-box .titleB {
+    padding: 10px;
+    background-color: black;
+    color: white;
+  }
+  .yellow img {
+    max-width: 100%;
+  }
+  .yellow .pic {
+    height: 248px;
+  }
+  .yellow .nd-nav {
+    display: none;
+  }
+
+  .red .arti-with-pic {
+    width: 45%;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  .red img {
+    max-width: 100%;
+  }
+  .red h3.title {
+    color: #60beae;
+  }
+  .red time {
+    color: #AAA;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 350px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .blue, .yellow, .red {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .blue .icon {
+    width: 60px;
+  }
+  .blue ul li {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #60beae;
+  }
+  .blue aside {
+    display: none;
+  }
+
+  .yellow .title-box {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .yellow .title-box .titleA {
+    padding: 10px;
+    background-color: white;
+  }
+  .yellow .title-box .titleB {
+    padding: 10px;
+    background-color: black;
+    color: white;
+  }
+  .yellow img {
+    max-width: 100%;
+  }
+  .yellow .pic {
+    height: 248px;
+  }
+  .yellow .nd-nav {
+    display: none;
+  }
+
+  .red .arti-with-pic {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .red .arti-with-pic img {
+    max-width: 100%;
+  }
+  .red .arti-with-pic h3.title {
+    color: #60beae;
+  }
+  .red .arti-with-pic time {
+    color: #AAA;
+  }
+}
